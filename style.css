@@ -40,3 +40,14 @@
   margin: 0;
   padding: 0;
 }
+
+/* utility classes */
+body {
+  color: var(--clr-text-black);
+  font-family: var(--ff-primary);
+}
+
+.container {
+  width: calc(min(1170px, 100% - 2rem));
+  margin: auto;
+}
