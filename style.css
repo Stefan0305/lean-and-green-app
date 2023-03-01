@@ -2,6 +2,7 @@
 
 /* components stylesheets */
 @import url("./src/IngredientList/IngredientsList.css");
+@import url("./src/Footer/Footer.css");
 
 :root {
   /* colors */
