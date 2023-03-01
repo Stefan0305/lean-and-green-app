@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap");
 
+/* components stylesheets */
+@import url("./src/IngredientList/IngredientsList.css");
+
 :root {
   /* colors */
   --clr-primary-green: #549663;
@@ -31,6 +34,10 @@
   --fs-h4: 30px;
   --fs-h6: 24px;
   --fs-body-text: 20px;
+
+  --fs-h2-s: 26px;
+  --fs-h4-s: 20px;
+  --fs-body-text-s: 16px;
 }
 
 *,
@@ -50,4 +57,5 @@ body {
 .container {
   width: calc(min(1170px, 100% - 2rem));
   margin: auto;
+  /* border: 1px solid red; */
 }
