@@ -88,6 +88,7 @@
     margin: auto;
     border-radius: 15px;
     max-width: 100%;
+    max-height: 200px;
   }
   .ingr-img-large {
     display: none;
@@ -110,7 +111,14 @@
     margin-bottom: 10px;
   }
   .ingr-bullets {
+    display: block;
     font-size: var(--fs-body-text);
+  }
+  .ingr-bullets li {
+    margin-bottom: 10px;
+  }
+  .ingr-bullets li:last-child {
+    margin: 0;
   }
   .ingr-img-small {
     width: 400px;
