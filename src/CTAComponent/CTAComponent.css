@@ -1,0 +1,47 @@
+/* CTA COMPONENT */
+.cta-component {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.cta-button-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: min(600px, calc(100% - 2rem));
+  height: 80px;
+  padding: 25px 0px;
+  background: var(--clr-secondary-yellow);
+  border-radius: 15px;
+  transition: all ease-in 0.1s;
+}
+.cta-button {
+  font-family: var(--ff-primary);
+  font-style: normal;
+  font-weight: var(--fw-ex-bold);
+  font-size: var(--fs-h4);
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  color: var(--clr-text-black);
+}
+.money-back-wrapper {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+.money-back-badge {
+  width: 40px;
+  height: 40px;
+}
+.money-back-text {
+  font-style: normal;
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-h4-s);
+  line-height: 28px;
+}

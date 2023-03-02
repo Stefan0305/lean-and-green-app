@@ -2,6 +2,7 @@
 
 /* components stylesheets */
 @import url("./src/IngredientList/IngredientsList.css");
+@import url("./src/CTAComponent/CTAComponent.css");
 
 :root {
   /* colors */
@@ -60,10 +61,17 @@ body {
   /* border: 1px solid red; */
 }
 
-/* RESULTS CARDS */
+/* RESULTS SECTION */
+.results-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 49px;
+}
 .results-section {
   background-color: var(--clr-bg-grey);
 }
+
+/* RESULTS CARDS */
 .results-cards {
   display: flex;
   flex-direction: column;
@@ -84,7 +92,6 @@ body {
   max-width: 570px;
   flex: 1 1 343px;
 }
-
 .card-img > img {
   filter: drop-shadow(0px 5px 30px rgba(0, 0, 0, 0.2));
   border-radius: 15px;
@@ -175,6 +182,7 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
+  /* RESULTS CARDS */
   .card {
     min-width: calc(300px - 2rem);
     max-width: 343px;
@@ -201,7 +209,9 @@ body {
     max-width: 343px;
   }
 }
+
 @media only screen and (min-width: 768px) {
+  /* RESULTS CARDS */
   .card-1 > .card-body {
     gap: 30px;
   }
@@ -214,6 +224,7 @@ body {
   }
 }
 @media only screen and (min-width: 992px) {
+  /* RESULTS CARDS */
   .cards-row {
     gap: 30px;
   }

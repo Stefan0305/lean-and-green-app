@@ -99,6 +99,8 @@ class Results extends HTMLElement {
                 <div class="results-cards-row"></div>
             </div>
 
+            <cta-component></cta-component>
+
             <div class="testimonials">
                 <div class="testimonial-card">
                     <div class="tst-card-body">
