@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400;1,500;1,700;1,800&display=swap");
 
 /* components stylesheets */
 @import url("./src/IngredientList/IngredientsList.css");
@@ -58,4 +58,102 @@ body {
   width: calc(min(1170px, 100% - 2rem));
   margin: auto;
   /* border: 1px solid red; */
+}
+
+.results-section {
+  background-color: var(--clr-bg-grey);
+}
+.results-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.cards-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  min-width: 343px;
+  max-width: 570px;
+  flex: 1 1 343px;
+}
+
+.card-img > img {
+  filter: drop-shadow(0px 5px 30px rgba(0, 0, 0, 0.2));
+  border-radius: 15px;
+  max-width: 100%;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.card-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card-title {
+  font-style: normal;
+  font-weight: var(--fw-ex-bold);
+  font-size: var(--fs-h4);
+  line-height: 38px;
+  text-align: center;
+  color: var(--clr-primary-green);
+}
+.card-para {
+  font-style: normal;
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-h4-s);
+  line-height: 28px;
+}
+.highlight-para {
+  font-weight: var(--fw-ex-bold);
+  font-size: var(--fs-h4-s);
+  line-height: 28px;
+  color: var(--clr-accent-red);
+  font-style: italic;
+}
+
+@media only screen and (max-width: 767px) {
+  .card {
+    min-width: calc(300px - 2rem);
+    max-width: 343px;
+    gap: 20px;
+  }
+  .card-body {
+    gap: 16px;
+  }
+  .card-title {
+    font-size: var(--fs-h4-s);
+  }
+  .card-para,
+  .highlight-para {
+    font-size: var(--fs-body-text-s);
+    line-height: 24px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .card-1 > .card-body {
+    gap: 30px;
+  }
+  .card-2 > .card-body,
+  .card-4 > .card-body {
+    gap: 40px;
+  }
+  .card-3 > .card-body {
+    gap: 20px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .cards-row {
+    gap: 30px;
+  }
 }
