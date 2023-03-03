@@ -25,7 +25,7 @@ class Results extends HTMLElement {
         </div>
     </div>
     <div class="container">
-        <div class="results-section-wrapper">
+        <div class="results-section-wrapper section-padding">
             <div class="results-cards">
                 <div class="cards-row">
                     <div class="card card-1">

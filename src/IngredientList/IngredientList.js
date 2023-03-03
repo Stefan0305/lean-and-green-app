@@ -12,7 +12,7 @@ class IngredientList extends HTMLElement {
     this.shadow.innerHTML = `
     <link rel="stylesheet" href="../../style.css">
     
-    <section class="ingredients-section">
+    <section class="ingredients-section section-padding">
         <div class="container">
             <div class="ingredients-wrapper">
                 <div class="ingredients-heading">

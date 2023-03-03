@@ -10,26 +10,8 @@
 </head>
 
 <body>
-    <ingredient-list></ingredient-list>
-    <footer-component></footer-component>
 
-    <script src="./src/IngredientList/IngredientList.js"></script>
-    <script src="src/Footer/Footer.js"></script>
-
-    <!-- <results-section></results-section>
-    <script src="./src/Results/Results.js"></script> -->
-
-    <!-- <script src="./src/CTAComponent/CTAComponent.js"></script> -->
-
-
-    <!-- <mbg-component class="mbg-section"></mbg-component> -->
-
-    <features-section></features-section>
-    <script src="./src/Features/Features.js"></script>
-    <benefits-section></benefits-section>
-    <script src="./src/Benefits/Benefits.js"></script>
-
-    <section class="purchase-section-1">
+    <section class="purchase-section-1 section-padding">
         <div class="container">
             <div class="purchase-section-1-wrapper">
                 <div class="ps1-heading">
@@ -49,6 +31,10 @@
         </div>
     </section>
 
+    <results-section></results-section>
+
+    <ingredient-list></ingredient-list>
+
     <section class="purchase-section-2">
         <div class="purchase-section-3-heading green-heading white-bg">
             <div class="inner-spacer">
@@ -65,7 +51,6 @@
         </div>
 
         <purchase-offer-component></purchase-offer-component>
-
 
         <div class="testimonials ps2-testimonials container">
             <div class="testimonial-card ps2-testimonial-card">
@@ -112,8 +97,8 @@
                 </div>
             </div>
         </div>
-        <div class="container ps2-para">Try a <span class="para-fw800">30-Day supply</span> or save big on our <span
-                class="para-fw800">Subscribe
+        <div class="container ps2-para">
+            Try a <span class="para-fw800">30-Day supply</span> or save big on our <span class="para-fw800">Subscribe
                 and Save option</span>!
             <br /><br />
             <span class="green-highlighted">Green&Lean</span> is one of the healthiest and cleanest energy supplements
@@ -130,9 +115,12 @@
             convenient bundle that saves you time and money. Because why waste time living unmotivated?
         </div>
 
-
-        <mbg-component></mbg-component>
+        <mbg-component style="width: 100%;"></mbg-component>
     </section>
+
+    <features-section class="section-padding"></features-section>
+
+    <benefits-section class="section-padding"></benefits-section>
 
     <section class="purchase-section-3">
         <div class="purchase-section-3-heading green-heading white-bg">
@@ -147,13 +135,30 @@
                 <div class="arrow-south"><img src="./assets/arrow-south.svg" alt=""></div>
             </div>
         </div>
+        <div class="section-padding">
+            <purchase-offer-component></purchase-offer-component>
+        </div>
+    </section>
+
+    <mbg-component class="mbg-section"></mbg-component>
+
+    <!-- insert FAQ section here -->
+
+    <section class="purchase-section-4 section-padding">
         <purchase-offer-component></purchase-offer-component>
     </section>
+
+    <footer-component></footer-component>
 
 
     <script src="./src/PurchaseOfferComponent/PurchaseOfferComponent.js"></script>
     <script src="./src/MBGComponent/MBGComponent.js"></script>
-
+    <script src="./src/CTAComponent/CTAComponent.js"></script>
+    <script src="./src/Results/Results.js"></script>
+    <script src="./src/IngredientList/IngredientList.js"></script>
+    <script src="./src/Features/Features.js"></script>
+    <script src="./src/Benefits/Benefits.js"></script>
+    <script src="./src/Footer/Footer.js"></script>
 </body>
 
 </html>

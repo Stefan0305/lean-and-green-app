@@ -12,7 +12,7 @@ class Features extends HTMLElement {
     this.shadow.innerHTML = `
         <link rel="stylesheet" href="../../style.css">
         
-        <div class="features-section">
+        <div class="features-section section-padding">
         <div class="features-section-wrapper">
             <div class="features-heading">
                 <h2 class="features-primary-heading">Why Green&Lean?</h2>

@@ -60,11 +60,13 @@ body {
   color: var(--clr-text-black);
   font-family: var(--ff-primary);
 }
-
 .container {
   width: calc(min(1170px, 100% - 2rem));
   margin: auto;
   /* border: 1px solid red; */
+}
+.section-padding {
+  padding: 60px 0;
 }
 
 /* SHARED COMPONENTS */
@@ -90,7 +92,7 @@ body {
   padding: 50px 10px 80px;
 }
 .inner-spacer {
-  margin: -40px 0;
+  margin-bottom: -40px;
   width: 100%;
 }
 .top-heading {
@@ -207,6 +209,10 @@ body {
   padding: 40px 0px 60px;
   gap: 40px;
 }
+.purchase-section-2 .inner-spacer {
+  margin: -40px 0 !important;
+}
+/* other styles for testimonial cards handled in results component */
 .ps2-testimonial-card {
   background-color: var(--clr-bg-grey);
 }

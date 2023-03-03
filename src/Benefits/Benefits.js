@@ -12,7 +12,7 @@ class Benefits extends HTMLElement {
     this.shadow.innerHTML = `
     <link rel="stylesheet" href="../../style.css">
     
-    <section class="benefits-section">
+    <section class="benefits-section section-padding">
     <div class="container">
         <div class="benefits-section-wrapper">
             <div class="benefits-heading">
