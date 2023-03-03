@@ -71,18 +71,23 @@ body {
 
 /* green headings */
 .green-heading {
-  background-color: var(--clr-bg-grey);
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
+.white-bg {
+  background-color: var(--clr-bg-white);
+}
+.grey-bg {
+  background-color: var(--clr-bg-grey);
 }
 .heading-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: var(--clr-primary-green);
-  padding: 50px 0 80px;
+  padding: 50px 10px 80px;
 }
 .inner-spacer {
   margin: -40px 0;
@@ -114,7 +119,6 @@ body {
 .elipse {
   width: 80px;
   height: 80px;
-  background-color: var(--clr-bg-grey);
   border-radius: 50%;
 }
 .arrow-south {

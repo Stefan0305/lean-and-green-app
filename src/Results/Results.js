@@ -12,7 +12,7 @@ class Results extends HTMLElement {
     this.shadow.innerHTML = `
     <link rel="stylesheet" href="../../style.css">
     <section class="results-section">
-    <div class="results-heading green-heading">
+    <div class="results-heading green-heading grey-bg">
         <div class="inner-spacer">
             <div class="heading-wrapper">
                 <h2 class="top-heading">Experience</h2>
@@ -20,7 +20,7 @@ class Results extends HTMLElement {
             </div>
         </div>
         <div class="arrow-wrapper">
-            <div class="elipse"></div>
+            <div class="elipse grey-bg"></div>
             <div class="arrow-south"><img src="./assets/arrow-south.svg" alt=""></div>
         </div>
     </div>
