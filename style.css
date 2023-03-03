@@ -4,6 +4,7 @@
 @import url("./src/IngredientList/IngredientsList.css");
 @import url("./src/CTAComponent/CTAComponent.css");
 @import url("./src/Results/Results.css");
+@import url("./src/MBGComponent/MBGComponent.css");
 
 :root {
   /* colors */
@@ -130,4 +131,15 @@ body {
     font-size: 34px;
     line-height: 40px;
   }
+}
+
+/* MONEY BACK GUARANTEE SECTION */
+.mbg-section {
+  background-color: var(--clr-bg-grey);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 10px;
+  gap: 60px;
 }
