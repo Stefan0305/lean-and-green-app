@@ -197,3 +197,26 @@ body {
     line-height: 20px;
   }
 }
+
+/* PURCHASE SECTION #2 */
+.purchase-section-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px 60px;
+  gap: 40px;
+}
+.ps2-testimonial-card {
+  background-color: var(--clr-bg-grey);
+}
+.ps2-para {
+  font-style: normal;
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-h4-s);
+  line-height: 28px;
+}
+.green-highlighted {
+  font-weight: var(--fw-bold);
+  color: var(--clr-primary-green);
+}
