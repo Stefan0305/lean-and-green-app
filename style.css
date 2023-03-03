@@ -4,6 +4,7 @@
 @import url("./src/IngredientList/IngredientsList.css");
 @import url("./src/CTAComponent/CTAComponent.css");
 @import url("./src/Results/Results.css");
+@import url("./src/MBGComponent/MBGComponent.css");
 
 :root {
   /* colors */
@@ -132,6 +133,7 @@ body {
   }
 }
 
+/* MONEY BACK GUARANTEE SECTION */
 .mbg-section {
   background-color: var(--clr-bg-grey);
   display: flex;
@@ -140,101 +142,4 @@ body {
   align-items: center;
   padding: 60px 10px;
   gap: 60px;
-}
-.mbg-component {
-  width: calc(min(1250px, 100% - 2rem));
-  margin: auto;
-  padding: 60px 0;
-  background-color: var(--clr-primary-green);
-  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  position: relative;
-  overflow: hidden;
-}
-.mbg-component-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-.mbg-bg-symbol {
-  position: absolute;
-  width: 42%;
-  transform: rotate(30deg);
-  bottom: -14%;
-  right: -8%;
-  opacity: 0.1;
-  z-index: 1;
-}
-.mbg-heading h2 {
-  text-align: center;
-  font-size: var(--fs-h2);
-  font-weight: var(--fw-ex-bold);
-  line-height: 52px;
-  color: var(--clr-text-white);
-  text-transform: capitalize;
-}
-.mbg-body-upper {
-  display: flex;
-  flex-direction: row-reverse;
-  gap: 10px;
-  justify-content: space-between;
-}
-.mbg-body-upper,
-.mbg-body-lower {
-  z-index: 2;
-}
-.mbg-body-upper p,
-.mbg-body-lower p {
-  font-style: normal;
-  font-weight: var(--fw-regular);
-  font-size: var(--fs-h4-s);
-  line-height: 28px;
-  color: var(--clr-text-white);
-}
-.mbg-body-text {
-  max-width: 750px;
-}
-.mbg-img {
-  max-width: 350px;
-  max-height: 392px;
-}
-
-@media only screen and (max-width: 1282px) {
-  .mbg-component {
-    max-width: calc(100% - 2rem);
-    padding: 60px 30px;
-  }
-}
-
-@media only screen and (max-width: 890px) {
-  .mbg-body-upper {
-    display: block;
-  }
-  .mbg-img {
-    float: right;
-    margin-left: 10px;
-    margin-bottom: 10px;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .mbg-heading h2 {
-    font-size: var(--fs-h2-s);
-    line-height: 34px;
-  }
-  .mbg-body-upper {
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 40px;
-  }
-  .mbg-body-text {
-    max-width: 100%;
-  }
-  .mbg-img {
-    max-width: unset;
-    margin: auto;
-  }
-  .mbg-img img {
-    width: min(350px, 100%);
-  }
 }
