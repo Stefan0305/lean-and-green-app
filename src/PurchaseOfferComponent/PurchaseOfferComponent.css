@@ -1,0 +1,178 @@
+/* PURCHASE OFFER COMPONENT */
+.purchase-offer-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  max-width: calc(min(820px, 100% - 2rem));
+  margin: auto;
+}
+.offer-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: 100%;
+}
+.plan-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: center;
+  padding: 0px;
+  width: 400px;
+}
+.plan-heading {
+  text-align: center;
+  padding: 22px 10px;
+  border-radius: 10px 10px 0px 0px;
+  font-style: normal;
+  font-weight: var(--fw-ex-bold);
+  font-size: var(--fs-h4);
+  line-height: 30px;
+  text-transform: uppercase;
+  width: 100%;
+}
+.plan1 .plan-heading {
+  background: #f0d8a8;
+  color: var(--clr-text-black);
+}
+.plan2 .plan-heading {
+  background-color: var(--clr-primary-green);
+  color: var(--clr-text-white);
+}
+.plan-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px 30px;
+  gap: 10px;
+  background: var(--clr-bg-white);
+  border-width: 0px 2px 2px 2px;
+  border-style: solid;
+  border-color: var(--clr-bg-grey);
+  border-radius: 0px 0px 15px 15px;
+  width: 100%;
+}
+.plan2 .plan-body {
+  background: rgba(230, 236, 224, 0.5);
+}
+.product-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  width: calc(100% - 20px);
+}
+.product3-img {
+  width: 260px;
+  height: 208px;
+  margin-left: 25px;
+}
+.product5-img {
+  width: 360px;
+  height: 208px;
+}
+.quantity {
+  font-style: normal;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-h6);
+  line-height: 28px;
+  text-align: center;
+}
+.product {
+  margin: auto;
+}
+.offer-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  width: 100%;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+}
+.save-text {
+  font-style: normal;
+  font-weight: var(--fw-medium);
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+.price-text {
+  font-style: normal;
+  font-weight: var(--fw-ex-bold);
+  font-size: 52px;
+  line-height: 50px;
+  text-align: center;
+  color: var(--clr-primary-green);
+}
+.cta-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: 100%;
+}
+.btn-and-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 5px;
+  width: 100%;
+}
+.cta-button-small {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-family: var(--ff-primary);
+  font-style: normal;
+  font-weight: var(--fw-ex-bold);
+  font-size: var(--fs-h4);
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  background: var(--clr-secondary-yellow);
+  border: none;
+  border-radius: 15px;
+  color: var(--clr-text-black);
+  padding: 12px 0;
+  width: min(340px, 100% - 20px);
+}
+.cta-button-small:hover {
+  background: linear-gradient(180deg, #ffe600 0%, #ffc700 100%);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+.cta-button-subtitle {
+  font-style: normal;
+  font-weight: var(--fw-medium);
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: none;
+}
+
+@media only screen and (max-width: 851px) {
+  .offer-wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .plan-card {
+    width: unset;
+    max-width: 400px;
+  }
+  .product3-img,
+  .product5-img {
+    width: calc(100% - 20px);
+    height: unset;
+  }
+}
