@@ -5,6 +5,7 @@
 @import url("./src/CTAComponent/CTAComponent.css");
 @import url("./src/Results/Results.css");
 @import url("./src/MBGComponent/MBGComponent.css");
+@import url("./src/Features/Features.css");
 
 :root {
   /* colors */
