@@ -44,4 +44,11 @@
   font-weight: var(--fw-regular);
   font-size: var(--fs-h4-s);
   line-height: 28px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 851px) {
+  .money-back-wrapper {
+    flex-direction: column;
+  }
 }
