@@ -104,6 +104,16 @@
     font-size: var(--fs-h4-s);
     line-height: 26px;
   }
+  .feature p {
+    font-size: var(--fs-body-text-s);
+    line-height: 24px;
+  }
+  .features-img {
+    max-height: 350px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
   .features {
     flex-direction: column;
     gap: 30px;
@@ -131,9 +141,5 @@
   }
   .features-right p {
     text-align: left;
-  }
-  .feature p {
-    font-size: var(--fs-body-text-s);
-    line-height: 24px;
   }
 }
