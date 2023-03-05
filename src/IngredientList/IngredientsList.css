@@ -1,3 +1,6 @@
+.ingredients-section {
+  display: none;
+}
 .ingredients-wrapper {
   display: flex;
   flex-direction: column;
