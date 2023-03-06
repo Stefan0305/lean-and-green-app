@@ -57,6 +57,14 @@
   background-color: var(--clr-bg-white);
 }
 
+.faq-title.ui-state-default .toggle-arrow {
+  transition: all 0.3s ease-in;
+}
+.faq-title.ui-state-active .toggle-arrow {
+  transform: rotate(-180deg);
+  transition: all 0.3s ease-in;
+}
+
 @media only screen and (min-width: 768px) {
   .faq-title {
     font-size: 22px;
