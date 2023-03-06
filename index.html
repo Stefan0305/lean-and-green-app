@@ -7,13 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
     <title>[WholeHarvest] Lean&Green</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+    <script>
+        $(function () {
+            const faqRoot = document.getElementById('faq-section').shadowRoot;
+            $(faqRoot).find('#faq').accordion({
+                header: '.faq-title',
+                active: 0,
+                collapsible: true
+            });
+        });
+    </script>
 </head>
 
 <body>
+
     <ingredient-list></ingredient-list>
     <script src="./src/IngredientList/IngredientList.js"></script>
 
-    <faq-section></faq-section>
+    <faq-section id="faq-section"></faq-section>
     <script src="./src/FAQ/FAQ.js"></script>
 </body>
 

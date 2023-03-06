@@ -30,7 +30,7 @@
   gap: 10px;
   justify-content: space-between;
   align-items: center;
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px;
   padding: 10px 20px;
   background-color: var(--clr-primary-green);
   color: var(--clr-text-white);
@@ -38,6 +38,14 @@
   font-weight: var(--fw-ex-bold);
   font-size: 18px;
   line-height: 30px;
+  transition: all 0.1s linear 0.3s;
+}
+.faq-title.ui-state-active {
+  border-radius: 10px 10px 0 0;
+  transition: all 0.1s linear;
+}
+.faq-title .ui-icon {
+  display: none;
 }
 .faq-body {
   padding: 10px 20px;
