@@ -152,6 +152,7 @@
 .cta-button-small:hover {
   background: linear-gradient(180deg, #ffe600 0%, #ffc700 100%);
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 .cta-button-subtitle {
   font-style: normal;

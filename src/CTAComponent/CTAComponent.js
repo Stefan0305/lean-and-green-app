@@ -14,7 +14,7 @@ class CTAComponent extends HTMLElement {
 
     <div class="cta-component">
         <div class="cta-button-wrapper">
-            <button class="cta-button">BUY NOW</button>
+            <p class="cta-button">BUY NOW</p>
         </div>
         <div class="money-back-wrapper">
             <img src="./assets/mbg-90days-sticker.svg" alt="" class="money-back-badge">

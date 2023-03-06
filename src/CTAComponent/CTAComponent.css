@@ -13,9 +13,14 @@
   width: min(600px, calc(100% - 2rem));
   height: 80px;
   padding: 25px 0px;
-  background: var(--clr-secondary-yellow);
+  background-color: var(--clr-secondary-yellow);
   border-radius: 15px;
   transition: all ease-in 0.1s;
+}
+.cta-button-wrapper:hover {
+  background: linear-gradient(180deg, #ffe600 0%, #ffc700 100%);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 .cta-button {
   font-family: var(--ff-primary);
@@ -28,6 +33,9 @@
   background: none;
   border: none;
   color: var(--clr-text-black);
+}
+.cta-button:hover {
+  cursor: pointer;
 }
 .money-back-wrapper {
   display: flex;
