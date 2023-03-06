@@ -18,7 +18,7 @@ class FAQ extends HTMLElement {
                 <div class="faq-heading">
                     <h2>Frequently asked questions</h2>
                 </div>
-                <div class="faq">
+                <div class="faq" id="faq">
                     <div class="faq-question-wrapper">
                         <div class="faq-title">
                             <h4>What are the ingredients in GREEN&LEAN?</h4>
