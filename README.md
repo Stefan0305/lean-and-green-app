@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://jade-druid-9718dc.netlify.app/)
+[Live Demo Link](https://frabjous-taffy-bc1baf.netlify.app/)
 
 ## Authors
 
