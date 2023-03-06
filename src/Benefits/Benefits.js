@@ -57,7 +57,7 @@ class Benefits extends HTMLElement {
                     </div>
                 </div>
             </div>
-            <cta-component></cta-component>
+            <cta-component id="cta-component-benefits"></cta-component>
 
         </div>
     </div>

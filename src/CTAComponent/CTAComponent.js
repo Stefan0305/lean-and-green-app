@@ -13,8 +13,8 @@ class CTAComponent extends HTMLElement {
     <link rel="stylesheet" href="../../style.css">
 
     <div class="cta-component">
-        <div class="cta-button-wrapper">
-            <p class="cta-button">BUY NOW</p>
+        <div class="cta-button-wrapper" id="cta-button-big">
+            <button class="cta-button">BUY NOW</button>
         </div>
         <div class="money-back-wrapper">
             <img src="./assets/mbg-90days-sticker.svg" alt="" class="money-back-badge">

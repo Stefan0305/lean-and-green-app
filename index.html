@@ -23,12 +23,26 @@
                 active: 0,
                 collapsible: true
             });
+
+            // scroll into view functionality for CTA button in RESULTS SECTION
+            const scrollPs2 = document.getElementById("purchase-section-2");
+            const resultsShadow = document.getElementById('results-section').shadowRoot.getElementById('cta-component-results').shadowRoot;
+            $(resultsShadow).find('#cta-button-big').on('click', function () {
+                scrollPs2.scrollIntoView({ behavior: "smooth" });
+            })
+
+            // scroll into view functionality for CTA button in BENEFITS SECTION
+            const scrollPs3 = document.getElementById('purchase-section-3');
+            const benefitsShadow = document.getElementById('benefits-section').shadowRoot.getElementById('cta-component-benefits').shadowRoot;
+            $(benefitsShadow).find('#cta-button-big').on('click', function () {
+                scrollPs3.scrollIntoView({ behavior: "smooth" });
+            })
         });
     </script>
 </head>
 
 <body>
-
+    <button id="test-btn">Test</button>
     <hero-section></hero-section>
 
     <section class="purchase-section-1 section-padding">
@@ -51,11 +65,11 @@
         </div>
     </section>
 
-    <results-section></results-section>
+    <results-section id="results-section"></results-section>
 
     <ingredient-list></ingredient-list>
 
-    <section class="purchase-section-2">
+    <section class="purchase-section-2" id="purchase-section-2">
         <div class="purchase-section-3-heading green-heading white-bg">
             <div class="inner-spacer">
                 <div class="heading-wrapper">
@@ -140,9 +154,9 @@
 
     <features-section class="section-padding"></features-section>
 
-    <benefits-section class="section-padding"></benefits-section>
+    <benefits-section class="section-padding" id="benefits-section"></benefits-section>
 
-    <section class="purchase-section-3">
+    <section class="purchase-section-3" id="purchase-section-3">
         <div class="purchase-section-3-heading green-heading white-bg">
             <div class="inner-spacer">
                 <div class="heading-wrapper">

@@ -111,7 +111,7 @@ class Results extends HTMLElement {
                 <div class="results-cards-row"></div>
             </div>
 
-            <cta-component></cta-component>
+            <cta-component id="cta-component-results"></cta-component>
 
             <div class="testimonials">
                 <div class="testimonial-card">
